@@ -3,6 +3,7 @@ html {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   color: #000;
+  background-color: #ccc;
 }
 
 *, *::before, *::after {
@@ -14,7 +15,7 @@ body {
 }
 
 section {
-  /* justify-content: space-between; */
+  margin: 0 1.5rem 0 0;
 }
 
 ul {
@@ -31,10 +32,11 @@ img {
 }
 
 h2 {
-  /* margin-top: 3rem; */
+  margin-top: 2rem;
   display: block;
   text-align: center;
-  font-size: 2rem;
+
+  /* font-size: 2rem; */
 }
 
 li {
@@ -43,10 +45,12 @@ li {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  padding: 1.5em;
+  padding: .3rem 1rem .6rem 2rem;
+  margin-bottom: .7rem;
 }
 
 hgroup {
+  display: block;
   width: 16rem;
 }
 
@@ -56,18 +60,17 @@ h3, h4 {
 
 p {
   width: 24rem;
-  margin-right: 1.5rem;
+  margin-right: 5rem;
 }
 
 a {
   display: inline-block;
   margin: 0;
-  font-size: 1.125rem;
-  padding: .5rem 1rem .6rem;
+  padding: .5rem .5rem .6rem;
   text-decoration: none;
   color: #fff;
   background-color: #444;
-  border-color: #ccc;
+  border-color: #444;
 }
 
 /*
