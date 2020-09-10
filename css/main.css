@@ -1,0 +1,28 @@
+h2 {
+  text-align: center;
+}
+
+h3, h4 {
+  margin: 0;
+}
+
+ul {
+  text-decoration: none;
+}
+
+li {
+  display: flex;
+  text-decoration: none;
+  width: 100%;
+  padding: .5rem 1rem .6rem 2rem;
+}
+
+img {
+  display: block;
+  width: 5rem;
+}
+
+.hgroup {
+  display: block;
+  width: 35%;
+}
